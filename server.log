@@ -1,0 +1,233 @@
+
+> meshi-search-v0.1@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.4.2
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.19:3000
+
+ ✓ Starting...
+ ✓ Ready in 1203ms
+ ○ Compiling / ...
+ ✓ Compiled / in 793ms (685 modules)
+ GET / 200 in 1020ms
+ ✓ Compiled in 35ms (302 modules)
+ GET / 200 in 38ms
+ ✓ Compiled in 831ms (699 modules)
+ ✓ Compiled in 223ms (699 modules)
+ ✓ Compiled in 442ms (699 modules)
+ GET / 200 in 172ms
+ ✓ Compiled /api/recommend in 430ms (975 modules)
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 627ms
+ ✓ Compiled in 521ms (700 modules)
+ GET / 200 in 88ms
+ ✓ Compiled in 177ms (700 modules)
+ GET / 200 in 143ms
+ ✓ Compiled /api/recommend in 138ms (672 modules)
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 300ms
+ ✓ Compiled in 275ms (700 modules)
+ GET / 200 in 110ms
+ ✓ Compiled in 171ms (700 modules)
+ GET / 200 in 97ms
+ ✓ Compiled in 118ms (700 modules)
+ GET / 200 in 52ms
+ ⨯ ./app/components/search/SearchForm.tsx
+Module parse failed: Identifier 'updateFormData' has already been declared (28:10)
+|     });
+|     // フォームデータが変更されたら親に通知
+>     const updateFormData = (newData)=>{
+|         updateFormData(newData);
+|         if (onFormDataChange) {
+
+Import trace for requested module:
+./app/components/search/SearchForm.tsx
+./app/page.tsx
+ ⨯ ./app/components/search/SearchForm.tsx
+Module parse failed: Identifier 'updateFormData' has already been declared (28:10)
+|     });
+|     // フォームデータが変更されたら親に通知
+>     const updateFormData = (newData)=>{
+|         setFormData(newData);
+|         if (onFormDataChange) {
+
+Import trace for requested module:
+./app/components/search/SearchForm.tsx
+./app/page.tsx
+ ✓ Compiled in 357ms (700 modules)
+ GET / 200 in 113ms
+ ✓ Compiled /api/recommend in 299ms (672 modules)
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 472ms
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 95ms
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 67ms
+ ✓ Compiled in 180ms (317 modules)
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 105ms
+ GET / 200 in 225ms
+Google Places API エラー: Error: Google Places API key is not configured
+    at searchRestaurants (app/lib/googlePlaces.ts:107:10)
+    at POST (app/api/recommend/route.ts:17:44)
+  105 | export async function searchRestaurants(searchRequest: SearchRequest) {
+  106 |   if (!process.env.GOOGLE_PLACES_API_KEY) {
+> 107 |     throw new Error('Google Places API key is not configured')
+      |          ^
+  108 |   }
+  109 |
+  110 |   try {
+ POST /api/recommend 200 in 94ms
+   Reload env: .env.local
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 2.1s (709 modules)
+ GET / 200 in 709ms
+ GET / 200 in 7ms
+   Reload env: .env.local
+ ✓ Compiled in 307ms (686 modules)
+ GET / 200 in 55ms
+ ✓ Compiled in 174ms (317 modules)
+ GET / 200 in 24ms
+ GET / 200 in 130ms
+ ✓ Compiled /api/recommend in 319ms (672 modules)
+ POST /api/recommend 200 in 1875ms
+ POST /api/recommend 200 in 1133ms
+ POST /api/recommend 200 in 535ms
+ POST /api/recommend 200 in 1479ms
+ ✓ Compiled in 177ms (317 modules)
+ ✓ Compiled in 255ms (700 modules)
+ ✓ Compiled in 68ms (317 modules)
+ ✓ Compiled in 58ms (317 modules)
+ ✓ Compiled in 108ms (317 modules)
+ ✓ Compiled /api/recommend in 225ms (672 modules)
+ POST /api/recommend 200 in 1608ms
+ POST /api/recommend 200 in 802ms
+ POST /api/recommend 200 in 1224ms
+ POST /api/recommend 200 in 242ms
+ ✓ Compiled in 374ms (700 modules)
+ ✓ Compiled in 267ms (700 modules)
+ ✓ Compiled in 150ms (700 modules)
+ ✓ Compiled /api/recommend in 200ms (672 modules)
+ POST /api/recommend 200 in 1836ms
+ POST /api/recommend 200 in 1127ms
+ GET / 200 in 190ms
+ POST /api/recommend 200 in 1003ms
+ GET / 200 in 75ms
+ POST /api/recommend 200 in 972ms
+ ✓ Compiled in 347ms (989 modules)
+ GET / 200 in 68ms
+ POST /api/recommend 200 in 733ms
+ ✓ Compiled in 162ms (989 modules)
+ GET / 200 in 45ms
+ ✓ Compiled in 185ms (989 modules)
+ GET / 200 in 62ms
+ ✓ Compiled in 185ms (989 modules)
+ GET / 200 in 65ms
+ POST /api/recommend 200 in 968ms
+ ✓ Compiled in 136ms (989 modules)
+ GET / 200 in 38ms
+ POST /api/recommend 200 in 736ms
+ POST /api/recommend 200 in 1100ms
+ POST /api/recommend 200 in 765ms
+ ✓ Compiled in 308ms (989 modules)
+ GET / 200 in 99ms
+ ✓ Compiled in 180ms (700 modules)
+ GET / 200 in 137ms
+ ✓ Compiled in 86ms (317 modules)
+ GET / 200 in 24ms
+ ✓ Compiled in 141ms (317 modules)
+ GET / 200 in 15ms
+ ✓ Compiled in 105ms (317 modules)
+ GET / 200 in 8ms
+ ✓ Compiled /api/recommend in 166ms (672 modules)
+ GET / 200 in 180ms
+ POST /api/recommend 200 in 1772ms
+ POST /api/recommend 200 in 2084ms
+ POST /api/recommend 200 in 1073ms
+ POST /api/recommend 200 in 2379ms
+ ✓ Compiled in 424ms (989 modules)
+ ✓ Compiled in 123ms (989 modules)
+ ✓ Compiled in 238ms (989 modules)
+ ✓ Compiled in 182ms (700 modules)
+ ✓ Compiled /api/recommend in 223ms (672 modules)
+ POST /api/recommend 200 in 2138ms
+ POST /api/recommend 200 in 1927ms
+ POST /api/recommend 200 in 1591ms
+ ✓ Compiled in 359ms (700 modules)
+ ✓ Compiled in 97ms (700 modules)
+ ✓ Compiled in 330ms (700 modules)
+ ✓ Compiled in 95ms (317 modules)
+ ✓ Compiled in 59ms (317 modules)
+ ✓ Compiled in 54ms (317 modules)
+ ✓ Compiled in 54ms (317 modules)
+ ✓ Compiled in 159ms (700 modules)
+ ✓ Compiled /api/recommend in 369ms (672 modules)
+ POST /api/recommend 200 in 3479ms
+ GET / 200 in 208ms
+ POST /api/recommend 200 in 2103ms
+ POST /api/recommend 200 in 2381ms
+ ✓ Compiled in 342ms (700 modules)
+ ✓ Compiled in 100ms (700 modules)
+ ✓ Compiled in 88ms (700 modules)
+ ✓ Compiled in 148ms (700 modules)
+ ✓ Compiled in 134ms (700 modules)
+ GET / 200 in 259ms
+ ✓ Compiled /api/recommend in 342ms (672 modules)
+ POST /api/recommend 200 in 2921ms
+ POST /api/recommend 200 in 1527ms
+ POST /api/recommend 200 in 1396ms
